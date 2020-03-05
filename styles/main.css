@@ -7275,15 +7275,18 @@ a.credit {
   padding-bottom: 0;
 }
 
-.padding-0{
-  padding-right:0;
-  padding-left:0;
-}
+@media only screen and (min-width: 600px) {
+  .padding-0{
+    padding-right:0;
+    padding-left:0;
+  }
+  
+  .padding-left-0{
+    padding-left:0;
+  }
+  
+  .padding-right-0{
+    padding-right:0;
+  }
 
-.padding-left-0{
-  padding-left:0;
-}
-
-.padding-right-0{
-  padding-right:0;
 }
